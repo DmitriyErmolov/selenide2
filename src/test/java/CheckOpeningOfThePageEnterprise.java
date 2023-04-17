@@ -5,9 +5,9 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class Task1 {
+public class CheckOpeningOfThePageEnterprise {
     @Test
-    void checkOpeningOfThePageEnterprise(){
+    void testOpeningOfThePageEnterprise(){
         // Открыть страницу https://github.com/
         open("https://github.com/");
         // Навести курсор мыши на выпадающий список "Solutions"
